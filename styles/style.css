@@ -10,6 +10,16 @@ body {
   height: 100vh;
 }
 
+h2, h3, p {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  body {
+      padding: 0 20px;
+  }
+}
+
 .editor-button {
   text-decoration: none;
   display: inline-block;
