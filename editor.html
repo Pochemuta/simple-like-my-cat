@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Simple Text Editor</title>
+</head>
+<body onload="countdownTimeStart()">
+    <h2>Simple text editor without spell checking</h2>
+    <h3 id="editorTimer"></h3>
+    <section class="content">
+        <div id="editorContainer">
+            <textarea class="editor" name="editor" placeholder="Type here" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+        </div>
+    </section>
+    <script src="scripts/index.js" defer></script>
+</body>
+</html>
